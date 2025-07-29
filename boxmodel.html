@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Demo - Visible Layers</title>
+  <style>
+    body {
+      background-color: #fefefe;
+    }
+
+    .outer {
+      margin: 40px;
+      background-color: #ffa07a; /* margin = coralish */
+      padding: 0;
+    }
+
+    .middle {
+      padding: 30px;
+      background-color: #90ee90; /* padding = light green */
+      border: 5px solid #000;    /* border = black */
+    }
+
+    .inner {
+      background-color: #add8e6; /* content = light blue */
+      padding: 10px;
+      text-align: center;
+      font-family: sans-serif;
+    }
+
+    h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="outer">
+    <div class="middle">
+      <div class="inner">
+        <h2>Box Model Breakdown</h2>
+        <p>This blue box is the content.</p>
+        <p>Green is padding, coral is margin, and there's a solid black border.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
